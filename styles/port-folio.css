@@ -212,3 +212,38 @@ main{
     /* text-wrap: balance; */
     text-wrap: wrap;
 }
+
+/* styles of skill section */
+.skill-container{
+    display: flex;
+    gap: 24px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.skill{
+    padding: 15px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    box-shadow: 0px 6px 15px 0px #000000;
+    border-radius: 5px;
+}
+/* image  */
+.skill-image{
+    width: 100px;
+    height: 100px;
+    display: block; 
+    margin: auto;
+}
+
+.skill-description{
+    font-size: 14px;
+    font-weight: normal;
+    color:#757575;
+    text-align:justify;
+    /* line-height: 20px; */
+}
+
+.skill-title{
+    text-align: center;
+}
