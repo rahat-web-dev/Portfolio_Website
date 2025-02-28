@@ -12,19 +12,28 @@
 
 /* shared style */
 
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
 .a-color {
     color: #474747;
 }
 
 
 .bg-primary {
-    background-color: #fff3f3;
+    /* background-color: #fff3f3; */
 }
 
 .section-title{
     font-size: 35px;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
     /* align-items: center; */
     /* justify-content: center; */
 }
@@ -225,7 +234,7 @@ main{
     padding: 15px;
     margin-top: 80px;
     margin-bottom: 100px;
-    box-shadow: 0px 6px 15px 0px #000000;
+    box-shadow: 2px 2px 5px 0px #000000;
     border-radius: 5px;
 }
 /* image  */
@@ -246,4 +255,49 @@ main{
 
 .skill-title{
     text-align: center;
+}
+
+
+/* styles of Education section */
+
+.education-container{
+    display: flex;
+    margin-top: 50px;
+    /* gap: 200px; */
+    /* justify-content: center; */
+    
+    height: auto;
+}
+
+.education-img{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px 1px;
+}
+
+.education-details{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.degree-description{
+    font-size: 14;
+    color:#757575;
+    line-height: 24px;
+    /* box-shadow: 0px 5px 10px 0px #000000; */
+}
+
+.degree-title{
+    font-size: 24px;
+}
+
+.degree-sub-title{
+    font-size: 20px;
+}
+
+.education{
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
