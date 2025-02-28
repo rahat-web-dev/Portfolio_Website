@@ -24,11 +24,6 @@
     color: #474747;
 }
 
-
-.bg-primary {
-    /* background-color: #fff3f3; */
-}
-
 .section-title{
     font-size: 35px;
     font-weight: bold;
@@ -79,10 +74,6 @@ nav ul li {
     list-style: none;
     font-weight: bold;
     /* margin-right: 50px; */  
-}
-
-ul li a {
-    /* text-decoration: none; */
 }
 
 /* nav button style */
@@ -257,13 +248,23 @@ main{
     text-align: center;
 }
 
-
 /* styles of Education section */
+
+.education{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
 
 .education-container{
     display: flex;
     margin-top: 50px;
-    /* gap: 200px; */
+    gap: 380px;
     /* justify-content: center; */
     
     height: auto;
@@ -298,6 +299,97 @@ main{
 }
 
 .education{
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
 }
+
+.edu-download-cv{
+   background-color: #FD6E0A;
+    color:#FFFFFF;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* align-items: center; */
+    /* justify-content: center */
+}
+
+/* styles of footer */
+
+.footer-container{
+    display: flex;
+    gap: 50px;
+    /* justify-content: space-around; */
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.ul-connect{
+    display: flex;
+    gap: 20px;
+}
+
+.ul-connect li{
+    list-style: none;
+}
+.ul-connect img{
+    width: 30px;
+    height: 30px;
+    /* margin-top: 20px; */
+}
+
+.btn-connect{
+    background-color: chocolate;
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600px;
+
+}
+
+.connect{
+    border: 1px solid black;
+    margin: 5px;
+    justify-content: start;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #000000;
+}
+
+.message{
+    border: 1px solid black;
+    margin: 5px;
+    justify-content: start;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px #000000;
+    width: 50%;
+}
+
+.copy-right{
+    text-align: center;
+    /* position: fixed; */
+    bottom: 0px;
+    /* padding: 10px; */
+    width: 100%;
+    
+}
+
+.copyright-span{
+    background-color: rgb(48, 231, 11);
+}
+
